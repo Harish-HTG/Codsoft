@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(1, 1, 40);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  background-color: rgb(2, 2, 94);
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 0 10px;
+}
+
+.left img {
+  width: 5%;
+  border-radius: 25px;
+  margin: 0 23px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+nav ul li a:hover {
+  color: yellowgreen;
+  transition: 0.5s;
+}
+
+.firstSection {
+  margin: 150px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.firstSection>div {
+  width: 30%;
+}
+
+.leftSection {
+  font-size: 2rem;
+}
+
+#element {
+  color: yellowgreen;
+}
+
+.contact-me {
+  margin-top: 30px;
+}
+
+.contact-btn {
+  font-size: 23px;
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+  background-color: #0056b3;
+}
+
+
+.rightSection img {
+  width: 75%;
+  background-color: yellowgreen;
+  border-radius: 8px;
+}
+
+#about {
+  padding: 0 45px;
+  line-height: 30px;
+}
+
+#about h1 {
+  font-size: 40px;
+}
+
+#about h1,
+h2 {
+  color: yellowgreen;
+}
+
+#about span {
+  font-weight: bold;
+}
+
+main hr {
+  margin: 30px 50px;
+}
+
+.secondSection {
+  padding: 75px 0;
+  max-width: 80vw;
+  margin: auto;
+  height: 400px;
+}
+
+.secondSection h1{
+  color: yellowgreen;
+  font-size: 2rem;
+}
+
+.secondSection .box {
+  width: 80vw;
+  height: 2px;
+  background-color: white;
+  margin: 40px 0;
+  display: flex;
+}
+
+.box .vertical {
+  margin: 0 115px;
+  height: 100px;
+  width: 1px;
+  background-color: white;
+}
+
+.vertical img {
+  width: 20px;
+  position: relative;
+  top: -33px;
+  left: -9px;
+}
+
+.title {
+  width: 200px;
+  position: relative;
+  top: 80px;
+}
+
+.progress-bar {
+  position: relative;
+  width: 200px;
+  top: 100px;
+  background-color: #eee;
+  border-radius: 2px;
+  height: 10px;
+  overflow: hidden;
+}
+
+.progress-inner {
+  height: 100%;
+  background-color: yellowgreen;
+  width: 0;
+  transition: width 1s ease;
+}
+
+.progress:hover .progress-inner {
+  width: 100%;
+}
+
+h1{
+  color: yellowgreen;
+  padding: 0 47px;
+}
+
+.projects {
+  padding: 120px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.project-card {
+  width: 300px;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  transition: transform 0.3s ease;
+  transition: border 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  border: 1px solid yellowgreen;
+  transition: 0.3s;
+}
+
+.project-card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 16px;
+  color: #666;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.resume-download {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.resume-download .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.resume-download h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.resume-download p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.resume-download .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.resume-download .btn:hover {
+  background-color: #0056b3;
+}
+
+.green {
+  color: greenyellow;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  padding: 10px 10px;
+  background-color: greenyellow;
+  justify-content: space-evenly;
+  color: blue;
+  align-items: center;
+}
+
+footer img {
+  width: 5%;
+  border-radius: 25px;
+  margin: 0 23px;
+}
+
+footer .top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.links ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.links ul li {
+  justify-content: center;
+  list-style: none;
+  padding-right: 8px;
+  margin: 0 23px;
+}
+
+.links ul li a {
+  text-decoration: none;
+  color: blue;
+}
+
+.txt {
+  font-size: 10px;
+  text-align: center;
+}
